@@ -22,6 +22,25 @@ else:
     print("The correct answer is 1") #print correct ans
     wrong+=1
 
+q3 = input("Q. Evaporation, Condensation, Precipitation, Run off.. What's next \n")
+if (q2.lower() == "evaporation"):
+    print("Correct!")
+    right+=1
+else:
+    print("Wrong Answer :(")
+    print("The correct answer is Evaporation") #print correct ans
+    wrong+=1
+
+# QUESTION4
+q4 = input("Q. Evaporation, Condensation, Precipitation, Run off.. What's next \n")
+if (q4.lower() == "evaporation"):
+    print("Correct!")
+    right+=1
+else:
+    print("Wrong Answer :(")
+    print("The correct answer is Evaporation") #print correct ans
+    wrong+=1
+
 perc=(right/ques)*100
 
 print("---------------- RESULT ----------------")
