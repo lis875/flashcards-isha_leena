@@ -2,8 +2,8 @@ right=0
 wrong=0
 ques=5
 
-# QUESTION1
-q1 = input("Q1. A triangle with no two sides of equal length \n")
+# QUESTION
+q1 = input("Q. A triangle with no two sides of equal length \n")
 if (q1.lower() == "scalene triangle"):
     print("Correct!")
     right+=1
@@ -12,8 +12,8 @@ else:
     print("The correct answer is Scalene Triange") #print correct ans
     wrong+=1
 
-# QUESTION2
-q2 = input("Q2. Which number is neither prime nor composite? \n")
+# QUESTION
+q2 = input("Q. Which number is neither prime nor composite? \n")
 if (q2 == "1") or (q2.lower() == "one"):
     print("Correct!")
     right+=1
@@ -31,14 +31,14 @@ else:
     print("The correct answer is Evaporation") #print correct ans
     wrong+=1
 
-# QUESTION4
-q4 = input("Q. Evaporation, Condensation, Precipitation, Run off.. What's next \n")
-if (q4.lower() == "evaporation"):
+# QUESTION
+q4 = input("Q. True or False: The foods you eat and the products you buy affect freshwater resources \n")
+if (q4.lower() == "True"):
     print("Correct!")
     right+=1
 else:
     print("Wrong Answer :(")
-    print("The correct answer is Evaporation") #print correct ans
+    print("The correct answer is True") #print correct ans
     wrong+=1
 
 perc=(right/ques)*100
